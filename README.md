@@ -1,2 +1,3 @@
 # unix_musicplayer
-즐거운 텀프로젝트
+아래로 피난가세요!
+https://github.com/kosh7707/new_unix_musicplayer
