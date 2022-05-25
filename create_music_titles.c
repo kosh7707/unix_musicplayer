@@ -1,16 +1,16 @@
 #include "textfilewriter.h"
 
+//void create_music_titles(FILE* stream){
 int main(){
-	FILE* title;
-        title = fopen("title.txt", "w");
+		FILE* stream;
+		stream = fopen("title.txt", "w+");
 
         int num;
-        char musicTitle[51];
         scanf("%d", &num);
         for(int i=0; i<=num; i++){
-                read_file(title);
-		write_file(title);
+                write_file("title.txt");
         }
-        fclose(title);
+		read_file("title.txt");
+        fclose(stream);
 
 }
